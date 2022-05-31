@@ -6,3 +6,14 @@
 .cuerpo{
     background-color: tan;
 }
+.bloque1{
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 15px;
+    
+}
+.bloque2{
+    background-color: coral;
+    padding: 5px;
+    margin-top: 10px;
+}
