@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablas</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!--tr es la cabeza, th las columnas y td los campos-->
-    <table border="2">
-        <tr class="cabecera">
-            <th>Nombre Completo</th>
-            <th>Edad</th>
-            <th>Telefono</th>
-            <th>Descripcion</th>
-        </tr>
-        <tbody class="cuerpo">
-            <tr>
-                <td>Andres Ortiz</td> 
-                <td>19</td>
-                <td>7771352643</td>
-                <td>holi</td>
-            </tr>
-            <tr>
-                <td>Emmanuel Mojica</td>
-                <td>27</td>
-                <td>7772183244</td>
-                <td>hola</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="4" align="center">Pie de Tabla</td>
-            </tr>
-        </tfoot>
-    </table>
-    <br>
-    <table border="1">
-        <tr class="cabecera">
-            <th>Nombre Completo</th>
-        </tr>
-        <tr>
-            <td>Andres Ortiz</td>
-        </tr>
-        <tr>
-            <th>Telefono</th>
-            <td>7771352643</td>
-        </tr>
-    </table>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<th>Nombre completo</th>
+				<th>Edad</th>
+				<th>Telefono</th>
+			</tr>
+			<tbody>
+				<tr>
+					<td>Herrera Joel</td>
+					<td>18</td>
+					<td>7774138125</td>
+				</tr>
+				<tr>
+					<td>Andre</td>
+					<td>23</td>
+					<td>177715846</td>
+				</tr>
+				<tr>
+					<td>Jesus</td>
+					<td>25</td>
+					<td>7774649459</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3" align="center">Pie de pagina</td>
+				</tr>
+			</tfoot>
+		</table>
+		<br />
+		<table border="2">
+			<tr>
+				<th rowspan="2">Nombre Completo</th>
+				<td>Joel</td>
+			</tr>
+			<tr>
+				<td>Morales</td>
+			</tr>
+			<tr>
+				<th>Telefono</th>
+				<td>7774138125</td>
+			</tr>
+		</table>
+	</body>
 </html>

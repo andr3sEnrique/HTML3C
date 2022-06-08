@@ -1,19 +1,31 @@
-.cabecera{
-    font-family: serif;
-    background-color: rgb(163, 139, 107);
-    
+.cabecera {
+	font-family: serif;
+	background-color: rgb(163, 139, 107);
 }
-.cuerpo{
-    background-color: tan;
+.cuerpo {
+	background-color: tan;
 }
-.bloque1{
-    background-color: blanchedalmond;
-    padding: 15px;
-    margin: 15px;
-    
+.bloque1 {
+	background-color: blanchedalmond;
+	padding: 15px;
+	margin: 15px;
 }
-.bloque2{
-    background-color: coral;
-    padding: 5px;
-    margin-top: 10px;
+.bloque2 {
+	background-color: coral;
+	padding: 5px;
+	margin-top: 10px;
+}
+.header {
+	background-color: darkcyan;
+	margin-top: 5px;
+}
+#titulo {
+	font-size: 60px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+.letras {
+	font-size: 60px;
+	padding-bottom: 30px;
+	text-align: center;
 }
